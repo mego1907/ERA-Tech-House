@@ -1,0 +1,92 @@
+{
+  "navbar": {
+    "Contact": "contact",
+    "Vision": "Vision",
+    "Solutions": "Solutions"
+  },
+  "header": {
+    "title": "We are Awesome Team for\nYour Business Dream",
+    "why-us": "Why Choose Us ...",
+    "quality": "Quality: We prioritize delivering high-quality in all aspects of our work. We adhere to stringent standards in the development process and ensure that the software we deliver performs exceptionally and reliably."
+  },
+  "services": {
+    "title": "Our Services",
+    "serv-sec": "We offer professional and attractive website design anddevelopment services that cater to your business needs.We prioritize providing a superior user experience and responsive design that works seamlessly across all devices.",
+    "category": "WEBSITE",
+    "read-more-btn": "Read More"
+  },
+  "unprecedented-velocity": "Unprecedented Velocity.",
+  "impeccable-reliability": "Impeccable Reliability.",
+  "at-era-tech-house": "At ERA TECH-HOUSE, we offer a range of services that are designed to help you get the most out of your data. Our team of experts can help you with everything from data analysis to application development. We pride ourselves on our ability to deliver results that are both fast and reliable.",
+  "we-take-pride-in-our-numbers": "We Take Pride in Our Numbers",
+  "years-of-experience": "Years of Experience",
+  "technology-partners": "Technology Partners",
+  "learn-more-btn": "Learn More",
+  "successful-projects-completed": "Successful Projects Completed",
+  "countries-served": "Countries Served",
+  "industry-awards": "Industry Awards",
+  "our-customers": {
+    "title": "Our Customers",
+    "sections": {
+      "world-fund": "WORLD FUND",
+      "city-guide": "CITY GUIDE",
+      "w-bank": "W-BANK",
+      "key-media": "KeyMedia"
+    },
+    "at-era-tech-house": "At ERA TECH-HOUSE, we offer a range of services that are designed to help you get the most out of your data. Our team of experts can help you with everything from data analysis to application development. We pride ourselves on our ability to deliver results that are both fast and reliable.",
+    "accelerate-your-business": "Accelerate Your Business with ERA TECH-HOUSE"
+  },
+  "footer": {
+    "mail": "support@era-techhouse.com",
+    "saudi-arabia-location": "Makkah, Saudi Arabia",
+    "egypt-location": "Cairo, Egypt",
+    "subscribe-to-our-newsletter": "Subscribe to Our Newsletter",
+    "submit-btn": "Submit",
+    "email-label": "Email *",
+    "follow-us-on-social-media": "Follow Us on Social Media",
+    "all-rights-reserved": "© 2023 ERA TECH- HOUSE. All rights reserved."
+  },
+  "website-development": "Website Development",
+  "website-development-title": "Make Your Own Website Now..",
+  "website-development-description": "At ERA TECH- HOUSE, we believe that having a compelling online presence should be accessible to everyone, regardless of their technical expertise.That's why we offer our comprehensive website creation solution, designed to empower individuals and businesses of all sizes to easily build stunning websites that effectively communicate their message and achieve their goals.",
+  "website-development-description2": "At ERA TECH-HOUSE, we believe that having a compelling online presence should be accessible to everyone, regardless of their technical expertise. That's why we offer our comprehensive website creation solution, designed to empower individuals and businesses of all sizes to easily build stunning websites that effectively communicate their message and achieve their goals.",
+  "website-development-description3": "Build Stunning Websites with Ease: Intuitive Drag-and-Drop Website Builder for Beginners. Custom Development Services: Tailor - Made Websites to Match Your Vision. Launch Your Online Store: Powerful E- commerce Platforms for Seamless Selling. Effortlessly Manage Your Content: User - Friendly Content Management Systems(CMS). Reach Mobile Users Effectively: Mobile - Optimized Websites for Exceptional User Experience. Drive Conversions with High - Converting Landing Pages: Create Compelling Designs and Clear Calls - to - Action. Choose from a Vast Collection of Website Templates and Themes: Launch Your Website Quickly and Efficiently. Ongoing Support and Maintenance: Keep Your Website Secure, Up - to - Date, and Optimized for Performance",
+  "app-development": "App development",
+  "app-development-title": "From Idea to App Store, We Bring Your Mobile App Dreams to Life.",
+  "app-development-description": "Ready to take your business to the next level with a cutting-edge mobile app? Partner with ERA TECH- House and let our expert mobile app creation service bring your vision to life. We combine innovative design, seamless functionality, and robust technology to deliver exceptional mobile experiences.",
+  "app-development-description2": "Ready to take your business to the next level with a cutting-edge mobile app? Partner with ERA TECH- House and let our expert mobile app creation service bring your vision to life.We combine innovative design, seamless functionality, and robust technology to deliver exceptional mobile experiences.",
+  "app-development-description3": "Expert Mobile App Development: Transforming Ideas into Intuitive Experiences. Seamless and Engaging Mobile Apps: Unlock Your Business's Potential. Tailored Mobile Solutions: Elevate Your Brand with Custom App Development. Stand Out in the App Stores: Captivate Users with Stunning Mobile Experiences. Cross-Platform Excellence: Reach Your Audience on Any Device. User - First Design: Craft Intuitive Apps that Delight and Engage. Launch with Confidence: Reliable App Development for Success. Accelerate Your Business with a Dynamic Mobile App. Future - Proof Your Brand: Harness the Power of Mobile Technology. Unleash Your App's Potential: Expert Development for a Competitive Edge.",
+  "Marketing": "Marketing",
+  "Marketing-title": "Make Your Own Website Now..",
+  "Marketing-description": "At ERA TECH- HOUSE, we believe that having a compelling online presence should be accessible to everyone, regardless of their technical expertise.That's why we offer our comprehensive website creation solution, designed to empower individuals and businesses of all sizes to easily build stunning websites that effectively communicate their message and achieve their goals.",
+  "Marketing-description2": "At ERA TECH-HOUSE, we believe that having a compelling online presence should be accessible to everyone, regardless of their technical expertise.That's why we offer our comprehensive website creation solution, designed to empower individuals and businesses of all sizes to easily build stunning websites that effectively communicate their message and achieve their goals.",
+  "Marketing-description3": "Build Stunning Websites with Ease: Intuitive Drag-and-Drop Website Builder for Beginners. Custom Development Services: Tailor - Made Websites to Match Your Vision. Launch Your Online Store: Powerful E- commerce Platforms for Seamless Selling. Effortlessly Manage Your Content: User - Friendly Content Management Systems(CMS). Reach Mobile Users Effectively: Mobile - Optimized Websites for Exceptional User Experience. Drive Conversions with High - Converting Landing Pages: Create Compelling Designs and Clear Calls - to - Action. Choose from a Vast Collection of Website Templates and Themes: Launch Your Website Quickly and Efficiently. Ongoing Support and Maintenance: Keep Your Website Secure, Up - to - Date, and Optimized for Performance",
+  "media": "Media",
+  "media-title": "Creativity in Media, Impact on the World",
+  "media-description": "ERA Tech-House offers comprehensive media services to help you build and enhance your brand identity in innovative and appealing ways. We provide a wide range of services,",
+  "media-description2": "SoftWare House offers comprehensive media services to help you build and enhance your brand identity in innovative and appealing ways. We provide a wide range of services, including: Brand Identity Creation: We assist you in developing a strong and distinctive brand identity that reflects your values and vision. From logo design, colors, and artwork to creating complete brand identities and visual identities, we ensure your brand stands out and sustains.",
+  "media-description3": "Motion Graphics: We provide innovative motion graphics services that capture audience attention and enhance engagement. Whether it's in the form of explainer videos, animated ads, or 2D and 3D animations, we deliver your messages and content in a creative and captivating manner. Design: At SoftWare House, we understand the importance of attractive and professional design in attracting and retaining audiences. We offer comprehensive design services, including website and application design, graphic design for marketing materials and print, and user interface design. We combine innovation with functional utility to deliver an exceptional design experience.",
+  "our-vision": {
+    "description": "We are partners to our clients, working diligently to understand their needs and achieve their vision through the development and delivery of unique software solutions and technologies that address their challenges. Our vision encompasses several aspects:",
+    "title": "Our Vision",
+    "list": {
+      "1": "1- Providing advanced software solutions.",
+      "2": "2- Innovation and continuous development.",
+      "3": "3- Agility and flexibility.",
+      "4": "4- Transparency and trust.",
+      "5": "5- Security and safety."
+    },
+    "description2": "In general, our vision as a software company revolves around providing innovative software solutions that help businesses grow and improve people's lives. We strive to be a trusted partner to our clients."
+  },
+  "contact": {
+    "title": "CONTACT US",
+    "phone": "+966 56 124 6795",
+    "mail": "support@era-techhouse.com",
+    "first-name-label": "First Name *",
+    "last-name-label": "Last Name *",
+    "email-label": "Email *",
+    "phone-label": "Phone *",
+    "message-label": "Message",
+    "send-btn": "send"
+  }
+}
