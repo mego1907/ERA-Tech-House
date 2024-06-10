@@ -104,8 +104,8 @@ export default function Home() {
           {t("services.title")}
         </h2>
         <div className="grid items-start grid-cols-1 gap-8 md:grid-cols-2">
-          {ourServices.map((serv) => (
-            <ServicesCard {...serv} />
+          {ourServices.map((serv, i) => (
+            <ServicesCard {...serv} key={i} />
           ))}
         </div>
       </div>
