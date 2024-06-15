@@ -32,6 +32,12 @@ const Navbar = ({ bg }: { bg: String | Boolean }) => {
       active: path === `/${currentLocale}/contact`,
       id: 3,
     },
+    {
+      name: t("Book"),
+      path: `/${currentLocale}/book`,
+      active: path === `/${currentLocale}/book`,
+      id: 4,
+    },
   ];
 
   return (

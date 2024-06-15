@@ -1,8 +1,9 @@
 {
   "navbar": {
-    "Contact": "contact",
+    "Contact": "Contact",
     "Vision": "Vision",
-    "Solutions": "Solutions"
+    "Solutions": "Solutions",
+    "Book": "Book"
   },
   "header": {
     "title": "We are Awesome Team for\nYour Business Dream",

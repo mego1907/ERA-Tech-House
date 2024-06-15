@@ -152,8 +152,6 @@ export default function Home() {
       {/* Our Customers */}
       <OurCustomers />
 
-      <InlineDatePicker />
-
       {/* Footer */}
       <Footer />
     </main>

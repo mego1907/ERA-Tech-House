@@ -1,6 +1,6 @@
 import { Footer } from "@/components";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Cairo } from "next/font/google";
 import { PrimeReactProvider, PrimeReactContext } from "primereact/api";
 // import "primereact/resources/themes/arya-blue/theme.css";
 // import "primereact/resources/themes/vela-green/theme.css";
@@ -15,6 +15,7 @@ import {
 import { getLangDir } from "rtl-detect";
 
 const inter = Inter({ subsets: ["latin"] });
+const cairo = Cairo({ subsets: ["arabic"] });
 
 export const metadata = {
   title: "ERA TECH-HOUSE",
@@ -28,7 +29,6 @@ export default function RootLayout({
   children: React.ReactNode;
   locale: never;
 }) {
-  const t = useTranslations();
   const currentLocale = useLocale();
   const direction = getLangDir(currentLocale);
   const messages = useMessages();
@@ -37,7 +37,11 @@ export default function RootLayout({
     <PrimeReactProvider>
       <NextIntlClientProvider locale={locale} messages={messages}>
         <html lang={locale} dir={direction}>
-          <body className={inter.className}>
+          <body
+            className={
+              currentLocale === "en" ? inter.className : cairo.className
+            }
+          >
             <div>{children}</div>
           </body>
         </html>
