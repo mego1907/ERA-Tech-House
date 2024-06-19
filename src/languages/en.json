@@ -12,9 +12,15 @@
   },
   "services": {
     "title": "Our Services",
-    "serv-sec": "We offer professional and attractive website design anddevelopment services that cater to your business needs.We prioritize providing a superior user experience and responsive design that works seamlessly across all devices.",
-    "category": "WEBSITE",
-    "read-more-btn": "Read More"
+    "serv-sec1": "We offer professional and attractive website design and development services that cater to your business needs.We prioritize providing a superior user experience and responsive design that works seamlessly across all devices.",
+    "category1": "WEBSITE",
+    "read-more-btn": "Read More",
+    "serv-sec2": "We design and develop innovative and standout mobile applications for major operating systems like iOS and Android. We focus on delivering user-friendly interfaces and exceptional performance to achieve your application goals.",
+    "category2": "App Development",
+    "serv-sec3": "We provide multimedia production services, including animation, explainer videos, and audio production. We help you create engaging and innovative content that effectively communicates with your audience.",
+    "category3": "MEDIA",
+    "serv-sec4": "We offer digital marketing services to help you reach your target audience and enhance your online presence. Using advanced digital marketing strategies, we assist you in increasing brand awareness and achieving positive results.",
+    "category4": "MARKETING"
   },
   "unprecedented-velocity": "Unprecedented Velocity.",
   "impeccable-reliability": "Impeccable Reliability.",

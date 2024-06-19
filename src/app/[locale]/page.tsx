@@ -6,41 +6,46 @@ import {
   InlineDatePicker,
 } from "@/components";
 import Header from "@/components/Header";
+import MainSlider from "@/components/MainSlider";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function Home() {
   const t = useTranslations();
 
+  const headerText = {
+    mainTitle: t("header.title"),
+  };
+
   const ourServices = [
     {
       id: 1,
-      description: t("services.serv-sec"),
-      category: t("services.category"),
+      description: t("services.serv-sec1"),
+      category: t("services.category1"),
       path: "#",
       name: "serv 1",
       img: "/assets/services/wow-image → website-development-links-seo-webinar-cyberspace-concept.jpg.png",
     },
     {
       id: 2,
-      description: t("services.serv-sec"),
-      category: t("services.category"),
+      description: t("services.serv-sec2"),
+      category: t("services.category2"),
       path: "#",
       name: "serv 2",
       img: "/assets/services/wow-image → representation-user-experience-interface-design-smartphone.jpg.png",
     },
     {
       id: 3,
-      description: t("services.serv-sec"),
-      category: t("services.category"),
+      description: t("services.serv-sec3"),
+      category: t("services.category3"),
       path: "#",
       name: "serv 3",
       img: "/assets/services/hand-using-laptp-with-graphic-global-communication-connection-technology.jpg.png",
     },
     {
       id: 4,
-      description: t("services.serv-sec"),
-      category: t("services.category"),
+      description: t("services.serv-sec4"),
+      category: t("services.category4"),
       path: "#",
       name: "serv 4",
       img: "/assets/services/corporate-management-strategy-solution-branding-concept.jpg.png",
@@ -76,9 +81,19 @@ export default function Home() {
   ];
 
   return (
-    <main className="relative bg-fixed bg-header-bg">
-      <Header />
-      <div className="bg-overlay-bg section">
+    <main className="relative bg-fixed bg-cover bg-header-bg">
+      <Navbar bg={"bg-transparent"} />
+
+      <div className="flex items-center justify-center py-60 bg-overlay-bg">
+        <h1 className="z-10 text-xl font-bold text-center text-white whitespace-pre-line md:leading-relaxed md:text-4xl">
+          {headerText.mainTitle}
+        </h1>
+      </div>
+
+      <MainSlider />
+
+      {/* <Header /> */}
+      {/* <div className="bg-overlay-bg section">
         <div className="z-10 w-full px-4 mx-auto md:w-2/3 -translate-y-1/4">
           <h3 className="md:text-[2.5rem] text-lg text-white font-bold">
             {t("header.why-us")}
@@ -96,7 +111,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Our Services */}
       <div className="z-10 px-5 py-10 md:px-40 bg-overlay-bg section">
