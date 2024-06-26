@@ -2,7 +2,7 @@ import { Navbar } from "@/components";
 import { useTranslations } from "next-intl";
 
 const InnerHeader = () => {
-  const t = useTranslations("contact-us");
+  const t = useTranslations("contact");
 
   return (
     <div className="mb-5">
@@ -18,9 +18,9 @@ const InnerHeader = () => {
             <p>{t("mail")}</p>
           </div>
 
-          <div className="flex items-center justify-center p-10">
+          <div className="flex items-center justify-center p-0 md:p-10">
             <div className="flex flex-col gap-4 p-5 py-16 md:w-3/5 md:p-0">
-              <div className="flex gap-3">
+              <div className="flex flex-col gap-3 md:flex-row">
                 <label>
                   <span>{t("first-name-label")}</span>
                   <input type="text" className="w-full p-2 bg-white/70" />
@@ -31,7 +31,7 @@ const InnerHeader = () => {
                 </label>
               </div>
 
-              <div className="flex gap-3">
+              <div className="flex flex-col gap-3 md:flex-row">
                 <label>
                   <span>{t("email-label")}</span>
                   <input type="text" className="w-full p-2 bg-white/70" />
