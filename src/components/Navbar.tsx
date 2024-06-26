@@ -54,15 +54,46 @@ const Navbar = ({ bg }: { bg: String | Boolean }) => {
         </Link>
 
         {/* Nav Items */}
-        <div className="flex items-center md:gap-5 gap-3 text-[10px] font-bold text-white md:text-lg">
+        <div className="relative flex items-center md:gap-5 gap-3 text-[10px] font-bold text-white md:text-lg">
           {navLinks.map(({ name, id, path, active }) => (
-            <Link
-              href={path}
-              key={id}
-              className={active ? "text-mainColor" : ""}
-            >
-              {name}
-            </Link>
+            <>
+              <Link
+                href={path}
+                key={id}
+                className={`${active && "text-mainColor"} ${
+                  id === 1 && "peer"
+                }`}
+              >
+                {name}
+              </Link>
+
+              <ul className="absolute flex flex-col opacity-0 peer-hover:opacity-100 hover:opacity-100 md:top-14 top-8">
+                <Link
+                  href={`/${currentLocale}/solutions/1`}
+                  className="p-2 text-white bg-black/20"
+                >
+                  Website Development
+                </Link>
+                <Link
+                  href={`/${currentLocale}/solutions/1`}
+                  className="p-2 text-white bg-black/20"
+                >
+                  App Development
+                </Link>
+                <Link
+                  href={`/${currentLocale}/solutions/1`}
+                  className="p-2 text-white bg-black/20"
+                >
+                  Marketing
+                </Link>
+                <Link
+                  href={`/${currentLocale}/solutions/1`}
+                  className="p-2 text-white bg-black/20"
+                >
+                  Media
+                </Link>
+              </ul>
+            </>
           ))}
 
           <LangSwitcher />
