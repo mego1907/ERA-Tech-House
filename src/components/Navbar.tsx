@@ -75,19 +75,19 @@ const Navbar = ({ bg }: { bg: String | Boolean }) => {
                   Website Development
                 </Link>
                 <Link
-                  href={`/${currentLocale}/solutions/1`}
+                  href={`/${currentLocale}/solutions/2`}
                   className="p-2 text-white bg-black/20"
                 >
                   App Development
                 </Link>
                 <Link
-                  href={`/${currentLocale}/solutions/1`}
+                  href={`/${currentLocale}/solutions/3`}
                   className="p-2 text-white bg-black/20"
                 >
                   Marketing
                 </Link>
                 <Link
-                  href={`/${currentLocale}/solutions/1`}
+                  href={`/${currentLocale}/solutions/4`}
                   className="p-2 text-white bg-black/20"
                 >
                   Media

@@ -2,12 +2,19 @@
 import LeftIcon from "@/icons/LeftIcon";
 import RightIcon from "@/icons/RightIcon";
 import { useTranslations } from "next-intl";
-import React from "react";
+import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import Link from "next/link";
+import SwiperCore from "swiper";
+import Navigation from "swiper";
+
+SwiperCore.use([Navigation]);
 
 const MainSlider = () => {
   const t = useTranslations();
+  const prevRef = useRef<HTMLButtonElement>(null);
+  const nextRef = useRef<HTMLButtonElement>(null);
 
   return (
     <Swiper
@@ -16,8 +23,29 @@ const MainSlider = () => {
       onSlideChange={() => console.log("Slide change")}
       onSwiper={(swiper) => console.log(swiper)}
       className="bg-overlay-bg"
+      navigation={{
+        prevEl: prevRef.current,
+        nextEl: nextRef.current,
+      }}
+      onBeforeInit={(swiper) => {
+        if (typeof swiper.params.navigation !== "boolean") {
+          const navigation = swiper.params.navigation!;
+          navigation.prevEl = prevRef.current;
+          navigation.nextEl = nextRef.current;
+        }
+      }}
     >
-      <SwiperSlide className="flex flex-col w-full pt-40">
+      <button ref={prevRef}>Previous</button>
+      <button ref={nextRef}>Next</button>
+      <SwiperSlide className="relative flex flex-col w-full pt-40 md:px-52">
+        <div className="flex justify-end w-full">
+          <Link
+            href={"/contact"}
+            className="absolute top-0 py-5 text-white transition-all rounded-xl hover:bg-opacity-75 px-14 bg-mainColor"
+          >
+            <span>Contact Us</span>
+          </Link>
+        </div>
         <div className="z-10 w-full px-4 mx-auto md:w-2/3 -translate-y-1/4">
           <h3 className="md:text-[2.5rem] text-lg text-white font-bold">
             {t("header.why-us")}
@@ -43,7 +71,7 @@ const MainSlider = () => {
 
       <SwiperSlide className="flex flex-col w-full pt-40">
         <div className="z-10 w-full px-4 mx-auto md:w-2/3 -translate-y-1/4">
-          <h3 className="md:text-[2.5rem] text-lg text-white font-bold">
+          <h3 className="md:text-[2.5rem] text-lg text-white font-bold mt-10">
             {t("header.why-us")}
           </h3>
 
