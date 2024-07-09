@@ -9,7 +9,7 @@ import Link from "next/link";
 import SwiperCore from "swiper";
 import Navigation from "swiper";
 
-SwiperCore.use([Navigation]);
+// SwiperCore.use([Navigation]);
 
 const MainSlider = () => {
   const t = useTranslations();
