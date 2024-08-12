@@ -10,7 +10,7 @@ export default function InlineDatePicker() {
   return (
     <div className="flex items-start justify-center gap-2 p-10 bg-overlay-bg section">
       <InlineWidget
-        url="https://calendly.com/ahmed-abd-elmageed-saad-elnmer"
+        url="https://calendly.com/era-techhouse/30min"
         styles={{ width: "100%", height: "100vh" }}
       />
     </div>
