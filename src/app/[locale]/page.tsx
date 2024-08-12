@@ -160,19 +160,33 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="relative bg-fixed bg-cover bg-header-bg">
-      <Navbar bg={"bg-transparent"} />
+    <html>
+      <head>
+        <meta
+          name="description"
+          content="At ERA Tech House, we specialize in delivering cutting-edge software solutions that empower businesses to achieve their goals through technology. Our mission is to transform ideas into reality by creating robust, scalable, and user-friendly software applications tailored to meet the unique needs of our clients"
+        />
+        <meta property="og:title" content="ERA Tech House" />
+        <meta
+          name="keywords"
+          content="Era Tech House, software solutions, custom software development, mobile app development, cloud solutions, enterprise solutions, AI and machine learning, software company, technology solutions, innovative software, web application development, ERA, ERA Tech"
+        />
+        <title>ERA Tech House</title>
+      </head>
+      <body>
+        <main className="relative bg-fixed bg-cover bg-header-bg">
+          <Navbar bg={"bg-transparent"} />
 
-      <div className="flex items-center justify-center py-60 bg-overlay-bg">
-        <h1 className="z-10 text-xl font-bold text-center text-white whitespace-pre-line md:leading-relaxed md:text-4xl">
-          {headerText.mainTitle}
-        </h1>
-      </div>
+          <div className="flex items-center justify-center py-60 bg-overlay-bg">
+            <h1 className="z-10 text-xl font-bold text-center text-white whitespace-pre-line md:leading-relaxed md:text-4xl">
+              {headerText.mainTitle}
+            </h1>
+          </div>
 
-      <MainSlider />
+          <MainSlider />
 
-      {/* <Header /> */}
-      {/* <div className="bg-overlay-bg section">
+          {/* <Header /> */}
+          {/* <div className="bg-overlay-bg section">
         <div className="z-10 w-full px-4 mx-auto md:w-2/3 -translate-y-1/4">
           <h3 className="md:text-[2.5rem] text-lg text-white font-bold">
             {t("header.why-us")}
@@ -192,71 +206,76 @@ export default function Home() {
         </div>
       </div> */}
 
-      {/* Our Services */}
-      <div className="z-10 px-5 py-10 md:px-40 bg-overlay-bg section">
-        <h2 className="text-center text-white md:text-[3.5rem] font-bold mb-6">
-          {t("services.title")}
-        </h2>
-        <div
-          className="grid items-start grid-cols-1 gap-8 md:grid-cols-2"
-          ref={ourServiesRef}
-        >
-          {ourServices.map((serv, i) => (
-            <ServicesCard {...serv} key={i} />
-          ))}
-        </div>
-      </div>
-      {/*  */}
-      <div className="relative z-10 bg-overlay-bg section">
-        <div className="grid md:grid-cols-2 grid-cols-1 border-t-[0.1px] border-b-[0.1px] border-desc/10">
-          <div className="flex flex-col items-center justify-center text-white md:border-r-[0.1px] border-b-[0.1px] md:p-0 p-5 border-desc/10">
-            <p>{t("unprecedented-velocity")}</p>
-            <p>{t("impeccable-reliability")}</p>
-          </div>
-          <div className="flex flex-col items-end justify-center px-5 py-10 text-white pb-44 md:p-56">
-            <p ref={textRef} className="text-sm md:leading-relaxed md:text-lg">
-              {t("at-era-tech-house")}
-            </p>
-            <button
-              type="button"
-              className="px-4 py-2 mt-10 text-sm text-black rounded-md md:text-base md:p-4 md:px-8 bg-mainColor"
-              ref={learnMoreBtnRef}
+          {/* Our Services */}
+          <div className="z-10 px-5 py-10 md:px-40 bg-overlay-bg section">
+            <h2 className="text-center text-white md:text-[3.5rem] font-bold mb-6">
+              {t("services.title")}
+            </h2>
+            <div
+              className="grid items-start grid-cols-1 gap-8 md:grid-cols-2"
+              ref={ourServiesRef}
             >
-              {t("learn-more-btn")}
-            </button>
+              {ourServices.map((serv, i) => (
+                <ServicesCard {...serv} key={i} />
+              ))}
+            </div>
           </div>
-        </div>
-
-        {/* We Take Pride in Our Numbers */}
-        <div
-          ref={takePrideRef}
-          className="absolute flex flex-col items-center justify-center -translate-x-1/2 bottom-10 left-1/2"
-        >
-          <h3 className="text-base font-bold text-white md:text-3xl">
-            {t("we-take-pride-in-our-numbers")}
-          </h3>
-
-          <div className="grid grid-cols-5 gap-16 md:gap-5">
-            {ourNumbers.map(({ id, num, desc }) => (
-              <div
-                key={id}
-                className="flex flex-col items-center justify-center gap-2 text-center"
-              >
-                <h2 className="text-2xl font-bold md:text-6xl text-mainColor">
-                  {num}
-                </h2>
-                <p className="text-[10px] md:text-sm text-desc">{desc}</p>
-                <span className="w-full h-1 bg-[#666666]"></span>
+          {/*  */}
+          <div className="relative z-10 bg-overlay-bg section">
+            <div className="grid md:grid-cols-2 grid-cols-1 border-t-[0.1px] border-b-[0.1px] border-desc/10">
+              <div className="flex flex-col items-center justify-center text-white md:border-r-[0.1px] border-b-[0.1px] md:p-0 p-5 border-desc/10">
+                <p>{t("unprecedented-velocity")}</p>
+                <p>{t("impeccable-reliability")}</p>
               </div>
-            ))}
-          </div>
-        </div>
-      </div>
-      {/* Our Customers */}
-      <OurCustomers />
+              <div className="flex flex-col items-end justify-center px-5 py-10 text-white pb-44 md:p-56">
+                <p
+                  ref={textRef}
+                  className="text-sm md:leading-relaxed md:text-lg"
+                >
+                  {t("at-era-tech-house")}
+                </p>
+                <button
+                  type="button"
+                  className="px-4 py-2 mt-10 text-sm text-black rounded-md md:text-base md:p-4 md:px-8 bg-mainColor"
+                  ref={learnMoreBtnRef}
+                >
+                  {t("learn-more-btn")}
+                </button>
+              </div>
+            </div>
 
-      {/* Footer */}
-      <Footer />
-    </main>
+            {/* We Take Pride in Our Numbers */}
+            <div
+              ref={takePrideRef}
+              className="absolute flex flex-col items-center justify-center -translate-x-1/2 bottom-10 left-1/2"
+            >
+              <h3 className="text-base font-bold text-white md:text-3xl">
+                {t("we-take-pride-in-our-numbers")}
+              </h3>
+
+              <div className="grid grid-cols-5 gap-16 md:gap-5">
+                {ourNumbers.map(({ id, num, desc }) => (
+                  <div
+                    key={id}
+                    className="flex flex-col items-center justify-center gap-2 text-center"
+                  >
+                    <h2 className="text-2xl font-bold md:text-6xl text-mainColor">
+                      {num}
+                    </h2>
+                    <p className="text-[10px] md:text-sm text-desc">{desc}</p>
+                    <span className="w-full h-1 bg-[#666666]"></span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          {/* Our Customers */}
+          <OurCustomers />
+
+          {/* Footer */}
+          <Footer />
+        </main>
+      </body>
+    </html>
   );
 }
